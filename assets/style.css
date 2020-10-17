@@ -16,6 +16,10 @@ img {
     font-size: 5vw;
 }
 
+h2 {
+    font-size: 3vw;
+}
+
 #middle {
     border-left: 1px solid black;
     border-right: 1px solid black;
