@@ -8,8 +8,12 @@ h1, .img{
     align-items: center;
 }
 
-.heading {
-    font-size: 100px;
+img {
+    width: 60%;
+}
+
+.heading, i {
+    font-size: 5vw;
 }
 
 #middle {
@@ -35,4 +39,13 @@ hr:before {
     border-color: black;
     border-width: 0 0 1px 0;
     border-radius: 20px;
+}
+
+@media screen and (max-width: 770px) {
+    #middle {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
 }
