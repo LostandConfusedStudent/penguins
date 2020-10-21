@@ -10,12 +10,11 @@ body {
     background-color: #eee;
     width: 60%;
     padding: 5%;
+    margin: 50px auto 50px auto;
 }
 
 h1, .img{
     text-align: center;
-    margin: 0 auto;
-    align-items: center;
 }
 
 img {
@@ -28,6 +27,7 @@ img {
 
 h2 {
     font-size: 3vw;
+    margin-bottom: 20px;
 }
 
 #middle {
@@ -61,5 +61,11 @@ hr:before {
         border-right: none;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #last {
+        padding-top: 20px;
     }
 }
